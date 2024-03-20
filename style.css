@@ -1,0 +1,13 @@
+/* styles.css */
+.container {
+    margin-top: 50px;
+}
+
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.preview-container {
+    margin-top: 20px;
+}
