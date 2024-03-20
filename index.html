@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en"> 
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>HTML Input Preview</title> 
+  <link rel="stylesheet" href="styles.css"> 
+ </head> 
+ <body> 
+  <div class="container"> 
+   <h1 class="text-center">HTML Input Preview</h1> 
+   <div class="form-container"> 
+    <div class="card"> 
+     <div class="card-body"> 
+      <h3 class="card-title">Enter HTML Code</h3> 
+      <p class="card-text">Type your HTML code below:</p> 
+      <form id="htmlForm"> 
+       <div class="form-group"> <label for="htmlCode">HTML Code:</label> <textarea class="form-control" id="htmlCode" rows="8"></textarea> 
+       </div> <button type="submit" class="btn btn-primary">Submit</button> 
+      </form> 
+      <div class="preview-container"> 
+       <h3>Preview:</h3> 
+       <div id="htmlPreview"></div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <script src="script.js"></script> 
+ </body>
+</html>
